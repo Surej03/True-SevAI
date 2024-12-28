@@ -1,0 +1,9 @@
+cors - it will allow us to connect the backend to the fronted
+dotenv - using that we create the dotenv file use it in the backend server
+nodemon - live server
+form-data
+jsonwebtoken - for authentication 
+mongoose - database 
+axios - helps us to make the api call
+bcrypt - using that we can encrypt the password 
+razorpay - online payment gateway
