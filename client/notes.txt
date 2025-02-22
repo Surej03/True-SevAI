@@ -1,0 +1,17 @@
+to change underline in navbar text when we hover it - .active hr @apply block
+dropdown text can be hidden by css styles hidden group-hover:block
+to hide the scroll bar - ::webkit-scrollbar hidden
+scrollTo(0,0) - whenever we scroll the wepage we will go to top
+
+
+
+  const handleSend = (message) => {
+    if (message.toLowerCase() === "clear chat") {
+      setMessages([]); // Clears the chat
+      return;
+    }
+    setMessages([...messages, { text: message, user: "You" }]);
+  };
+
+  // stringfy converts objects or arrays into json string because localStorage accepts only strings
+  // parse converts json string to objects or arrays 
